@@ -6,26 +6,28 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>br.com.poc</groupId>
-    <artifactId>micrometer-file</artifactId>
+    <artifactId>micrometer-dropwizard</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>micrometer-file</name>
-    <url>http://www.example.com</url>
+    <name>micrometer-dropwizard</name>
+    <url>https://github.com/mballoni/micrometer-dropwizard</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
 
-        <junit.version>5.2.0</junit.version>
+
         <micrometer.version>1.0.5</micrometer.version>
+        <logback.version>1.2.3</logback.version>
+        <slf4j-api.version>1.7.25</slf4j-api.version>
+        <dropwizard.version>4.0.2</dropwizard.version>
+
+        <junit.version>5.2.0</junit.version>
 
         <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
         <maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
         <exec-maven-plugin.version>1.6.0</exec-maven-plugin.version>
-        <logback.version>1.2.3</logback.version>
-        <slf4j-api.version>1.7.25</slf4j-api.version>
-        <dropwizard.version>4.0.2</dropwizard.version>
     </properties>
 
     <dependencies>
